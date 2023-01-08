@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "monoblocks",
+  "info": {
+    "singularName": "monoblock",
+    "pluralName": "monoblocks",
+    "displayName": "Моноблок",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "default": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product.default-fields",
+      "required": true
+    },
+    "usbType": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product.feature",
+      "required": true
+    },
+    "mass": {
+      "displayName": "DecimalField",
+      "type": "component",
+      "repeatable": false,
+      "component": "product.decimal-field",
+      "required": true
+    }
+  }
+}

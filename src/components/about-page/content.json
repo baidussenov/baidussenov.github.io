@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_about_page_contents",
+  "info": {
+    "displayName": "Content",
+    "icon": "audio-description",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

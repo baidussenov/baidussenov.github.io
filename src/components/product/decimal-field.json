@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_product_decimal_fields",
+  "info": {
+    "displayName": "DecimalFeature",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "value": {
+      "type": "decimal",
+      "required": false
+    }
+  }
+}

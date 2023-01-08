@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "staff_pages",
+  "info": {
+    "singularName": "staff-page",
+    "pluralName": "staff-pages",
+    "displayName": "Сотрудники",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "staff": {
+      "displayName": "Member",
+      "type": "component",
+      "repeatable": true,
+      "component": "staff-page.member"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    }
+  }
+}

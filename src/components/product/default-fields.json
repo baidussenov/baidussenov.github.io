@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_product_default_fields",
+  "info": {
+    "displayName": "DefaultFields",
+    "icon": "plane-arrival",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "inStock": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "price": {
+      "type": "integer",
+      "min": 0
+    },
+    "imgs": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "collectionSlug": {
+      "type": "string",
+      "regex": "^([a-z]|-|[1-9])+$",
+      "required": true
+    }
+  }
+}

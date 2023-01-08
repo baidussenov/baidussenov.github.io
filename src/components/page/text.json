@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_texts",
+  "info": {
+    "displayName": "Content",
+    "icon": "envelope-open-text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

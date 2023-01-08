@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "docs_pages",
+  "info": {
+    "singularName": "docs-page",
+    "pluralName": "docs-pages",
+    "displayName": "Документы",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "docs": {
+      "displayName": "Doc",
+      "type": "component",
+      "repeatable": true,
+      "component": "docs-page.doc",
+      "required": false
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    }
+  }
+}

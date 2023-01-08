@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "licenses_pages",
+  "info": {
+    "singularName": "licenses-page",
+    "pluralName": "licenses-pages",
+    "displayName": "Лицензии",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "licenses": {
+      "displayName": "License",
+      "type": "component",
+      "repeatable": true,
+      "component": "licenses-page.license"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    }
+  }
+}

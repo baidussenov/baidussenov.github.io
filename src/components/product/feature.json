@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_product_features",
+  "info": {
+    "displayName": "Feature",
+    "icon": "edit"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "value": {
+      "type": "text"
+    }
+  }
+}

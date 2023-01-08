@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "clients_pages",
+  "info": {
+    "singularName": "clients-page",
+    "pluralName": "clients-pages",
+    "displayName": "Клиенты",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "clients": {
+      "displayName": "Partner",
+      "type": "component",
+      "repeatable": true,
+      "component": "partner.partner"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    }
+  }
+}

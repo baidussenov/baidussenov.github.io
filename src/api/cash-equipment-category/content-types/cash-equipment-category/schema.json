@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "cash_equipment_categories",
+  "info": {
+    "singularName": "cash-equipment-category",
+    "pluralName": "cash-equipment-categories",
+    "displayName": "Кассовое оборудование",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "default": {
+      "type": "component",
+      "repeatable": false,
+      "component": "category.default-fields",
+      "required": true
+    },
+    "filters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.filter-field"
+    }
+  }
+}

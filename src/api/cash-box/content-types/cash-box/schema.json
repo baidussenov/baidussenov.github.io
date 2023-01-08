@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cash_boxes",
+  "info": {
+    "singularName": "cash-box",
+    "pluralName": "cash-boxes",
+    "displayName": "Денежный ящик",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "default": {
+      "displayName": "DefaultFields",
+      "type": "component",
+      "repeatable": false,
+      "component": "product.default-fields",
+      "required": true
+    },
+    "banknoteSectionsType": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product.feature",
+      "required": true
+    },
+    "banknoteSections": {
+      "displayName": "IntFeature",
+      "type": "component",
+      "repeatable": false,
+      "component": "product.int-feature",
+      "required": true
+    },
+    "mass": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product.decimal-field",
+      "required": true
+    }
+  }
+}

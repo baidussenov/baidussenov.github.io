@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "offices_pages",
+  "info": {
+    "singularName": "offices-page",
+    "pluralName": "offices-pages",
+    "displayName": "Филиалы",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "offices": {
+      "displayName": "Office",
+      "type": "component",
+      "repeatable": true,
+      "component": "offices-page.office"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    }
+  }
+}

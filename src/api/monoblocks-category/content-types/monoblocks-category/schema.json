@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "monoblocks_categories",
+  "info": {
+    "singularName": "monoblocks-category",
+    "pluralName": "monoblocks-categories",
+    "displayName": "Моноблоки",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "filters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.filter-field"
+    },
+    "default": {
+      "type": "component",
+      "repeatable": false,
+      "component": "category.default-fields"
+    }
+  }
+}

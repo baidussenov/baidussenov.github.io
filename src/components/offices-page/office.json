@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_offices_page_offices",
+  "info": {
+    "displayName": "Office",
+    "icon": "coffee"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "worktime": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

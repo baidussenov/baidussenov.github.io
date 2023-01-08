@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_product_int_features",
+  "info": {
+    "displayName": "IntFeature",
+    "icon": "sort-numeric-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "value": {
+      "type": "integer"
+    }
+  }
+}

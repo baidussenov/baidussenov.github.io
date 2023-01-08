@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "requisites_pages",
+  "info": {
+    "singularName": "requisites-page",
+    "pluralName": "requisites-pages",
+    "displayName": "Реквизиты",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "requisites": {
+      "type": "component",
+      "repeatable": true,
+      "component": "requisites-page.requisite"
+    }
+  }
+}

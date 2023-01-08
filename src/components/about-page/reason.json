@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_page_reasons",
+  "info": {
+    "displayName": "Reason",
+    "icon": "icons"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

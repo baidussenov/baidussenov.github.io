@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_licenses_page_licenses",
+  "info": {
+    "displayName": "License",
+    "icon": "sticky-note",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

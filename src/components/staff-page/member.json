@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_staff_page_members",
+  "info": {
+    "displayName": "Member",
+    "icon": "person-booth"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

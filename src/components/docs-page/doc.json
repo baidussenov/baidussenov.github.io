@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_docs_page_docs",
+  "info": {
+    "displayName": "Doc",
+    "icon": "file-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "file": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

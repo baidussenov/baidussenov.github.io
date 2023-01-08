@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_category_default_fields",
+  "info": {
+    "displayName": "DefaultFields",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "isLast": {
+      "type": "boolean",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "productSlug": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_product_float_fields",
+  "info": {
+    "displayName": "FloatFeature",
+    "icon": "sort-numeric-down-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {}
+}

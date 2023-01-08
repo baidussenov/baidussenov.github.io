@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_category_filter_fields",
+  "info": {
+    "displayName": "FilterField",
+    "icon": "filter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "fieldName": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    }
+  }
+}

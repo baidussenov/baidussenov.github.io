@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "cash_boxes_categories",
+  "info": {
+    "singularName": "cash-boxes-category",
+    "pluralName": "cash-boxes-categories",
+    "displayName": "Денежные ящики",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "filters": {
+      "displayName": "FilterField",
+      "type": "component",
+      "repeatable": true,
+      "component": "category.filter-field"
+    },
+    "default": {
+      "displayName": "DefaultFields",
+      "type": "component",
+      "repeatable": false,
+      "component": "category.default-fields",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "general_infos",
+  "info": {
+    "singularName": "general-info",
+    "pluralName": "general-infos",
+    "displayName": "Общие данные",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slogan": {
+      "type": "text"
+    },
+    "contacts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "communication.contact"
+    },
+    "location": {
+      "type": "text"
+    },
+    "socialNetworks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "communication.social-network"
+    }
+  }
+}
